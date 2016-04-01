@@ -13,9 +13,7 @@ Notes & HW Solutions for CS 131 (Spring'16, UCLA)
 
 #### Section 1 [Apr 01 2016]
   + OCaml
-    + System set up
-      + OCaml, Opam, Utop etc.
-      + Vim plugin(s)
+    + System setup: OCaml, Opam, Utop etc.
     + Primitives: bool, int, Lists, Tuples etc.
     + Functions, recursion, currying etc.
     + Pattern Matching
