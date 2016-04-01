@@ -48,7 +48,7 @@ Pattern Matching
 - `h::t` matches a list with at least one element
 - `h@t` is invalid syntax
 - `_` matches anything
-- `_::t`    matches the top-most (i.e. the first) ::
+- `_::t` matches the top-most (i.e. the first) ::
 - `h::m::t` h and m are first 2 elements, t is the rest
 - `(x,y)::t` first element matched to tuple directly
 
