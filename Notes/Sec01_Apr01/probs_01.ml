@@ -138,10 +138,9 @@ fib 5 = 5;;
  *)
 let fib2 (n : int) : int =
   let rec fib2_helper (k : int) (fk_1 : int) (fk : int) : int =
-    if n < k then fk_1
-    else if n = k then fk
+    if n = k then fk
     else fib2_helper (k + 1) fk (fk_1 + fk)
-  in fib2_helper 1 0 1
+  in if n < 2 then n else fib2_helper 1 0 1
 ;;
 
 fib2 0 = 0;;
