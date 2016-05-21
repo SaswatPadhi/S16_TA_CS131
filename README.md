@@ -41,3 +41,17 @@ Discussion Section Notes for CS 131 (Spring'16, UCLA)
   + Dynamic dispatch
     + vs Static overload
   + Implementation in Java
+
+#### Section 7 [May 13 2016]
+  + Generics
+    + `super` and `extends`
+  + Exceptions
+
+#### Section 8 [May 20 2016]
+  + HW4 solutions
+  + Java: Pass-by-value vs reference
+  + Java Streams
+    + Terminal vs intermediate functions
+    + Short-circuited functions
+    + mappers and Function<T,R> sub-type
+  + Prolog basics
